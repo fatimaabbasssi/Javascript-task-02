@@ -2,7 +2,7 @@ var userinput = prompt(`choose any one option from given
      1.Forword-Counting
      2.Backword-Counting 
      OR 
-     3.Math's-Table
+     3.Maths-Table
      select options (Forword , Backword , Table)
    
     `)
@@ -82,8 +82,8 @@ document.write("</br>")
 else if (userinput.toLowerCase() === 'table'){
     
 var table = +prompt("Enter The Number of Table ");
-var start = +prompt("Starting");
-var end = +prompt(" Ending ");
+var start = +prompt("Starting number");
+var end = +prompt(" Ending number");
 
 
     document.write("<h2>Table</h2>");
@@ -97,7 +97,7 @@ for(var i= start;  i<=end;  i++){
 // // ELSE
 else{
 
-document.write('<h1>Invalid input</h1>')
+document.write('<h1>Invalid Input</h1>')
 
 }
 
